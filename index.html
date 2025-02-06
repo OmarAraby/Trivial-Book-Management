@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="book-lib" >
+        <h1>Book Library</h1>
+    <section class="book-num" id="bookLib">
+        <label for="bookNo">How Many Books?</label>
+        <input type="number" id="bookNo" min="1" max="5000" placeholder="Enter Books No.">
+        <button id="btnCount">Ok</button>
+
+    </section>
+
+    <section class="book-form" id="bookForm">
+        <form action="">
+        <div class="form-group">
+            <label for="bookName">Book's Name</label>
+            <input type="text" id="bookName" pattern="[A-Za-z\s]{3,20}"  title="Only letters are allowed, and at least 3 characters are required" placeholder="Enter Book Name" required>
+        </div>
+        <div class="form-group">
+            <label for="bookPrice">Price</label>
+            <input type="number" id="bookPrice" min="1" max="2000" placeholder="Book Price..." required>
+        </div>
+        <div class="form-group">
+            <label for="authorName">Author Name</label>
+            <input type="text" id="authorName" pattern="[A-Za-z\s]{3,20}" placeholder="Enter Auther Name" title="Only letters are allowed, and at least 3 characters are required" required>
+        </div>
+        <div class="form-group">
+            <label for="authorEmail">Author E-mail</label>
+            <input type="email" id="authorEmail" pattern="^[\w.-]+@([\w-]+\.)+[\w-]{2,}$" placeholder="Enter Author E-mail : example@example.com " required>
+        </div>
+        <button type="submit">Add Book</button>
+    </form>
+    </section>
+
+    <section class="book-table">
+        
+            <table>
+                <thead>
+                    <tr>
+                    <th> Book Name</th>
+                    <th> Price</th>
+                    <th> Auther Name</th>
+                    <th> Auther E-mail</th>
+                    <th colspan="2"> Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <!-- <tr>
+                        <td>ice </td>
+                        <td>2000 </td>
+                        <td>Omar </td>
+                        <td>Gmail </td>
+                        <td><button>Edit</button> </td>
+                        <td><button>Delete</button> </td>
+                        
+                    </tr> -->
+                </tbody>
+            </table>
+        
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(44, 23, 46);;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.book-lib {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    color: rgb(203, 203, 203);
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 40px;
+
+}
+/* section 1 */
+
+.book-num{
+  text-align:left;
+  margin: 10px;
+  display: block;
+}
+
+.book-num label {
+    color: rgb(203, 203, 203);
+    font-size: 1.4em;
+    margin-right: 20px;
+
+}
+
+.book-num input{
+    padding: 8px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    width: 250px;
+
+}
+button {
+    background-color: violet;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+
+
+.book-num.hidden {
+    display: none;
+}
+.book-form {
+    /* background-color: rgba(216, 75, 214, 0.9); */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.book-form.show {
+    display: block;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 1em;
+    color: rgb(203, 203, 203);
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 1em;
+    margin: 5px;
+}
+form button {
+    width: 200px ;
+    font-size: 1.4em;
+
+}
+
+
+.book-table {
+    display: none; 
+}
+
+table{
+    border: 2px solid rgb(203, 203, 203);;
+    color: #ffffff;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    /* display: none; */
+}
+
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+
+th {
+    background-color: rgb(134, 83, 139);
+    color: rgb(6, 6, 6);
+}
+
+tr:hover {
+    background-color: rgb(180, 145, 174);
+}
+
+
+
+
+.book-table.show {
+    display: block;
+}
+
+
+
+table input{
+    padding: 8px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    width: 170px;
+}
+
+table button {
+    margin: 5px;
+}
