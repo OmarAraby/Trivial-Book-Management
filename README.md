@@ -69,6 +69,9 @@ This **lab-level project** is designed to **demonstrate fundamental web developm
 
 
 ## Screenshots
-![[Pasted image 20250206221445.png]]
-![[Pasted image 20250206221559.png]]![[Pasted image 20250206221623.png]]
-![[Pasted image 20250206221638.png]]
+![image](https://github.com/user-attachments/assets/d8e27141-ddb4-4366-8407-52bc5db72750)
+![image](https://github.com/user-attachments/assets/5faec79d-1226-4dfb-aba2-f329372c0d92)
+![image](https://github.com/user-attachments/assets/b2b8bfa6-96fe-4ce3-b497-cc4fe2f3ef1f)
+![image](https://github.com/user-attachments/assets/4ba66f6f-3530-4e0a-9bc6-beef335cc0fb)
+
+
